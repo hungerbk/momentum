@@ -1,4 +1,4 @@
-const API_KEY = config.apikey;
+const API_KEY = APIKEY;
 const noLocation = document.getElementById("no-location");
 
 function onGeoOk(position){
