@@ -1,0 +1,53 @@
+.hidden {
+    display: none;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+.big-font{
+    font-size: 150px;
+    margin: 30px;
+}
+
+.input1{
+    width: auto;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid white;
+    font-size: 30px;
+    background: transparent;
+    color: white;
+}
+
+.input2{
+    width: 210px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid white;
+    font-size: 15px;
+    background: transparent;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    position: relative;
+}
